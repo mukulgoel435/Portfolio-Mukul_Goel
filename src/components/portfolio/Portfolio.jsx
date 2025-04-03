@@ -6,6 +6,8 @@ import IMG3 from "../../assets/portfolio3.jpeg";
 import IMG4 from "../../assets/portfolio4.jpg";
 import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpeg";
+import IMG7 from "../../assets/portfolio7.png"; 
+import IMG8 from "../../assets/portfolio8.png"; 
 import "animate.css";
 import AOS from "aos";
 
@@ -17,6 +19,60 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>KBFC App</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/mukulgoel435/KBFC-App"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://drive.google.com/drive/folders/1A5cSWoXKaOTXFpk-0CKqcNB6oMVTmH1q?usp=drive_link"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              App Screenshot
+            </a>
+          </div>
+        </article>
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div className="portfolio__item-image">
+            <img src={IMG8} alt="" />
+          </div>
+          <h3>Factory ERP App</h3>
+          <div className="portfolio__item-cta">
+            <a href="https://github.com/mukulgoel435/Factory-erp-app"
+              className="btn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://drive.google.com/drive/folders/16AH1Q1gCy43IciUxsSFPMF1w5pqhs3dv?usp=sharing"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              App Screenshot
+            </a>
+          </div>
+        </article>
         <article
           className="portfolio__item"
           data-aos="fade-up"
