@@ -9,7 +9,7 @@
   }
   
   .modal-panel {
-    background-color: white;
+    background-color: #2d2d62;
     padding: 20px;
     border-radius: 12px;
     width: 95%;              
@@ -41,7 +41,7 @@
     top: 12px;
     right: 16px;
     font-size: 2.5rem;
-    color: #555;
+    color: #ffffff;
     background: none;
     border: none;
     cursor: pointer;

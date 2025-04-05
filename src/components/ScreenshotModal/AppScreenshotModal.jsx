@@ -11,11 +11,11 @@ const AppScreenshotModal = ({ isOpen, closeModal, images }) => {
   return (
     <div className="modal-overlay">
         <div className="modal-panel">
-            <button className="modal-close-icon" onClick={closeModal}>
+            <button className="modal-close-icon" onClick={closeModal} >
             &times;
             </button>
 
-            <h2 className="modal-title">App Screenshots</h2>
+            <h2 className="modal-title" style={{color:'#fff'}}>App Screenshots</h2>
             <Swiper
             spaceBetween={20}
             slidesPerView={1}
@@ -26,7 +26,7 @@ const AppScreenshotModal = ({ isOpen, closeModal, images }) => {
             {images.map((img, index) => (
                 <SwiperSlide key={index}>
                     <div className="modal-slide-content">
-                        <h1 className="modal-img-title" style={{fontSize:25,marginBottom:20 }}>{img.title}</h1>
+                        <h1 className="modal-img-title" style={{fontSize:25,marginBottom:20,color:'#fff' }}>{img.title}</h1>
                         <img src={img.src} alt={`screenshot-${index}`} className="modal-image" />
                     </div>
                 </SwiperSlide>
