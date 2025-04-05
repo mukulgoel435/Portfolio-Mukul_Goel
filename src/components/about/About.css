@@ -162,3 +162,16 @@
     margin-left:1em;
   }
 }
+
+@media (max-width: 600px) {
+  .about__me-border,
+  .rotating-ring {
+    width: 235px;
+    height: 235px;
+  }
+
+  .about__me-image {
+    width: 220px;
+    height: 220px;
+  }
+}
