@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import aboutImage from "../../assets/me2.png";
+import aboutImage from "../../assets/profileimage.png";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { TbStack3 } from "react-icons/tb";
@@ -17,11 +17,15 @@ const About = () => {
       <h2>About Me</h2>
 
       <div className="container about__container">
-        <div className="about__me" data-aos="fade-left">
-          <div className="about__me-image" data-aos="fade-right" data-aos-delay="200">
-            <img src={aboutImage} alt="about image" />
+      <div className="about__me" data-aos="fade-left">
+        <div className="about__me-border">
+          <div className="rotating-ring"></div>
+          <div className="about__me-image">
+            <img src={aboutImage} alt="about" />
           </div>
         </div>
+      </div>
+
         <div className="about__content">
           <div className="about__cards">
             
