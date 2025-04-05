@@ -6,6 +6,8 @@ import HeaderSocials from "./HeaderSocials";
 import "animate.css";
 import AOS from "aos";
 import Spline from '@splinetool/react-spline';
+import { Typewriter } from 'react-simple-typewriter'
+
 const Header = () => {
   AOS.init({
     duration: 5000,
@@ -25,7 +27,11 @@ const Header = () => {
           data-aos-delat="350"
           data-aos-duration="1000"
         >
-          Full Stack Developer
+         <Typewriter
+            words={['Frontend Developer', 'App Developer', 'MERN Stack Developer']}
+            loop={true}
+            cursor
+          />
         </h5>
         <CTA />
         <HeaderSocials />
