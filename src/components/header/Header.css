@@ -9,6 +9,22 @@ header {
   position: relative;
 }
 
+.theme-toggle {
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+  z-index: 100;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  color: var(--color-primary);
+}
+
+.theme-toggle:hover {
+  transform: rotate(20deg);
+}
+
+
 /* ============================ CTA ======================= */
 
 .cta {

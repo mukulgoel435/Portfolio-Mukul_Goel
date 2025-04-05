@@ -24,22 +24,22 @@ const Footer = () => {
 
       <ul className="permalinks">
         <li data-aos="fade-down" data-aos-delay="300">
-          <a href="#">Home</a>
+          <a href="#" style={{fontWeight:'bold'}}>Home</a>
         </li>
         <li data-aos="fade-up" data-aos-delay="300">
-          <a href="#about">About</a>
+          <a href="#about" style={{fontWeight:'bold'}}>About</a>
         </li>
         <li data-aos="fade-up" data-aos-delay="300">
-          <a href="#experience">Experience</a>
+          <a href="#experience" style={{fontWeight:'bold'}}>Experience</a>
         </li>
         <li data-aos="fade-down" data-aos-delay="300">
-          <a href="#services">Services</a>
+          <a href="#services" style={{fontWeight:'bold'}}>Services</a>
         </li>
         <li data-aos="fade-up" data-aos-delay="300">
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio" style={{fontWeight:'bold'}}>Portfolio</a>
         </li>
         <li data-aos="fade-down" data-aos-delay="300">
-          <a href="#contact">Contact</a>
+          <a href="#contact" style={{fontWeight:'bold'}}>Contact</a>
         </li>
       </ul>
       <div className="footer__socials">

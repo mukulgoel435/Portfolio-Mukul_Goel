@@ -213,34 +213,6 @@ const Portfolio = () => {
             </a>
           </div>
         </article>
-        <article
-          className="portfolio__item"
-          data-aos="fade-up"
-          data-aos-delay="600"
-        >
-          <div className="portfolio__item-image">
-            <img src={IMG6} alt="" />
-          </div>
-          <h3>smemorygame</h3>
-          <div className="portfolio__item-cta">
-            <a
-              href="https://github.com/mukulgoel435/Simon-memory"
-              className="btn"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://smemorygame.netlify.app/"
-              className="btn btn-primary"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Live Demo
-            </a>
-          </div>
-        </article>
       </div>
     </section>
   );
