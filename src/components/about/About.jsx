@@ -1,7 +1,6 @@
 import React from "react";
 import "./About.css";
 import aboutImage from "../../assets/profileimage.png";
-import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
 import { TbStack3 } from "react-icons/tb";
 import "animate.css";
