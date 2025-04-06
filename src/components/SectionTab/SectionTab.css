@@ -1,0 +1,76 @@
+#more-info {
+    margin-top: 8rem;
+    text-align: center;
+  }
+  
+  .tabs-heading {
+    color: var(--color-primary);
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .tabs-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+  }
+  
+  .tabs-buttons button {
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    color: var(--color-primary);
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .tabs-buttons button.active,
+  .tabs-buttons button:hover {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+  }
+  
+  .tab-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  
+  .tab-card {
+    background: var(--color-bg-variant);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: var(--transition);
+  }
+  
+  .tab-card h4 {
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .tab-card small {
+    display: block;
+    color: var(--color-light);
+    margin-bottom: 0.75rem;
+  }
+  
+  .tab-card a {
+    color: var(--color-primary);
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .tab-card p {
+    color: var(--color-light);
+  }
+  

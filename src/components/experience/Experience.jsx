@@ -7,8 +7,7 @@ const Experience = () => {
   AOS.init();
   return (
     <section id="experience">
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h2>My SkillSet</h2>
 
       <div className="container experience__container">
         {/* 🔥🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 Frontend 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥   */}
