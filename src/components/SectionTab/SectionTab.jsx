@@ -107,7 +107,7 @@ const SectionTabs = () => {
   };
 
   return (
-    <section id="more-info">
+    <section  id="SectionTab">
       <h2 className="tabs-heading">More About Me</h2>
       <div className="tabs-buttons">
         <button className={activeTab === "experience" ? "active" : ""} onClick={() => setActiveTab("experience")}>

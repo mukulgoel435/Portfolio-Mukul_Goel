@@ -6,7 +6,7 @@ import AOS from "aos";
 const Experience = () => {
   AOS.init();
   return (
-    <section id="experience">
+    <section id="SkillSet">
       <h2>My SkillSet</h2>
 
       <div className="container experience__container">

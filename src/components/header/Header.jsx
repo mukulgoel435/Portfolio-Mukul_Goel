@@ -55,12 +55,13 @@ const Header = () => {
         >
           <img
             src={ME}
-            alt="me"
+            alt=""
             data-aos="fade-up"
             data-aos-duration="1100"
             data-aos-delay="300"
           />
         </div>
+
 
         <a href="#contact" className="scroll__down">
           Scroll Down

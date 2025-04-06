@@ -1,5 +1,5 @@
 import React from "react";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiOutlineSetting } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import "./Nav.css";
@@ -22,6 +22,13 @@ const Nav = () => {
         className={activeNav === "#about" ? "active" : ""}
       >
         <AiOutlineUser />
+      </a>
+      <a
+        href="#SectionTab"
+        onClick={() => setActiveNav("#SectionTab")}
+        className={activeNav === "#SectionTab" ? "active" : ""}
+      >
+        <AiOutlineSetting />
       </a>
       <a
         href="#experience"
