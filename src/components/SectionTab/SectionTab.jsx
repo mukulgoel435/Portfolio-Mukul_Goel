@@ -28,26 +28,38 @@ const SectionTabs = () => {
 
   const certificates = [
     {
-      name: "Full Stack Web Development",
-      link: "https://example.com/fullstack-cert",
-      description: "Certified in MERN stack development from Code Academy.",
+      name: "React  - By Internshala",
+      link: "https://trainings.internshala.com/view_certificate/6offrr24dc6/ipu51wu3pga/",
+      description: "Completed a comprehensive React.js course from Internshala Trainings, covering core concepts such as components, state management, props, hooks, and routing. Gained hands-on experience by building interactive, responsive web applications, and developed a strong foundation in frontend development using modern React practices.",
     },
     {
-      name: "React Native Mastery",
-      link: "https://example.com/reactnative-cert",
-      description: "In-depth mobile development course completed with projects.",
+      name: "Complete 2023 web Development Bootcamp - Udemy ",
+      link: "https://www.udemy.com/certificate/UC-3f1263fd-1b8d-4d1f-89ec-7bc00e4d5460/",
+      description: "Completed `The Complete 2023 Web Development Bootcamp` on Udemy, a comprehensive, project-based course covering full-stack web development. Gained hands-on experience with HTML, CSS, JavaScript, Node.js, Express, MongoDB, and React. Built real-world web applications, strengthening both frontend and backend development skills.",
     },
   ];
 
   const activities = [
     {
-      title: "IEEE Student Branch Vice Chair",
-      description: "Organized multiple tech events and coding competitions, fostering innovation and collaboration among peers.",
+        title: "Vice-Chair, IEEE Student Branch DIT University",
+        duration: "Jan 2023 - Jan 2024",
+        description: "Planned and coordinated technical events, workshops, and coding competitions. Led the core committee in fostering peer learning and active student engagement within IEEE.",
     },
     {
-      title: "Appathon Winner",
-      description: "Won first prize in university-level app development competition using React Native and Firebase.",
+        title: "Treasurer, IEEE Student Branch DIT University",
+        duration: "Oct 2021 - Dec 2022",
+        description: "Managed budgets, event finances, and resource allocation for IEEE events. Ensured transparent fund utilization and contributed to organizing university-level tech activities.",
+    }, 
+    {
+        title: "Student Branch Associate at AISYWLC'21",
+        duration: "Dec 2021",
+        description: "Participated in national-level IEEE leadership congress. Showcased team projects and contributed to discussions on youth innovation and technology leadership.",
     },
+    {
+        title: "Student Ambassador of IEEEXtreme 15.0",
+        duration: "Aug 2022 - Jul 2023",
+        description: "Promoted and coordinated IEEEXtreme among students, encouraging participation in the 24-hour global coding challenge. Supported event logistics and team registrations.",
+    } 
   ];
 
   const renderTabContent = () => {
@@ -83,6 +95,7 @@ const SectionTabs = () => {
             {activities.map((act, index) => (
               <div key={index} className="tab-card">
                 <h4>{act.title}</h4>
+                <small>{act.duration}</small>
                 <p>{act.description}</p>
               </div>
             ))}
