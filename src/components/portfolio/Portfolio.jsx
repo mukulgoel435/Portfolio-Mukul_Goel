@@ -8,6 +8,7 @@ import IMG5 from "../../assets/portfolio5.jpg";
 import IMG6 from "../../assets/portfolio6.jpeg";
 import IMG7 from "../../assets/portfolio7.png"; 
 import IMG8 from "../../assets/portfolio8.png"; 
+import IMG9 from "../../assets/logo-thread.png";
 import { kbfcscreenshots, factoryscreenshots } from "../../data/screenshot";
 import AppScreenshotModal from "../ScreenshotModal/AppScreenshotModal";
 import { useState } from "react";
@@ -115,6 +116,26 @@ const Portfolio = () => {
             </a>
             <a
               href="https://jsr-forms.vercel.app/auth"
+              className="btn btn-primary"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Live Demo
+            </a>
+          </div>
+        </article>
+        <article
+          className="portfolio__item"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <div style={{display: 'flex',justifyContent: 'center',alignItems: 'center',}} className="portfolio__item-image">
+            <img style={{height:280,width:280}} src={IMG9} alt="" />
+          </div>
+          <h3>Orrapoly</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://www.orrapoly.com/"
               className="btn btn-primary"
               target="_blank"
               rel="noreferrer"
